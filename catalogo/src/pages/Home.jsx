@@ -8,7 +8,7 @@ const Home = () => {
 
     const [topMovies, setTopMovies] = useState([])
 
-    const getTopRatedMovies = async(url) => {
+    const getTopRatedMovies = async (url) => {
         const res = await fetch(url) 
         const data = await res.json()
 
