@@ -17,9 +17,9 @@ const Home = () => {
 
   useEffect(() => {
 
-    const topratedURL = `${moviesURL}top_rated?${apiKey}`;
+    const topRatedURL = `${moviesURL}top_rated?${apiKey}`;
 
-    console.log(topratedURL);
+    getTopRatedMovies(topRatedURL);
   }, [])
 
   return 
