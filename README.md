@@ -1,1 +1,1 @@
-Projeto parado!
+Projeto Descontinuado!
