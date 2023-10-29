@@ -12,7 +12,7 @@ const App = () => {
         <form>
           <div className="action">
             <button type="button">Voltar</button>
-            <button type="submit"></button>
+            <button type="submit">Avançar</button>
           </div>
         </form>
       </div>
