@@ -1,18 +1,18 @@
 //Components
 import { GrFormNext, GrFormPrevious } from 'react-icons/gr'
-import UserForm from './components/UseForm'
-import ReviewForm from './components/ReviewForm'
-import Thanks from './components/Thanks'
+import UserForm from './components/UserForm';
+import ReviewForm from './components/ReviewForm';
+import Thanks from './components/Thanks';
 
 // Hooks
-import { UserForm } from './hooks/useForm'
+import { useForm } from "./hooks/useForm";
 
 import './App.css'
 
 function App() {
-  const formComponents = [<UserForm />, <ReviewForm />, <Thanks />]
+  const formComponents = [<UserForm />, <ReviewForm />, <Thanks />];
 
-  const { currentStep, currentComponent } = UseForm(formComponents);
+  const { currentStep, currentComponent } = useForm(formComponents);
 
   return (
     <div className="App">
