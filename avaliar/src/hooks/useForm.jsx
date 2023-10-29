@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export function useForm(steps) {
+export function UseForm(steps) {
     const [currentStep, setCurrentStep] = useState(0)
 
     return {
@@ -9,3 +9,4 @@ export function useForm(steps) {
     };
 }
 
+export default UseForm

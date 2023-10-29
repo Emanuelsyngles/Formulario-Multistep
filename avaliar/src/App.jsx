@@ -5,14 +5,14 @@ import ReviewForm from './components/ReviewForm'
 import Thanks from './components/Thanks';
 
 // Hooks
-import UseForm from './hooks/useForm';
+import UseForm from './hooks/UseForm'
 
 import './App.css'
 
 function App() {
   const formComponents = [<UserForm />, <ReviewForm />, <Thanks />];
 
-  const { currentStep, currentComponent } = useForm(formComponents);
+  const { currentStep, currentComponent } = UseForm(formComponents);
 
   return (
     <div className="App">
