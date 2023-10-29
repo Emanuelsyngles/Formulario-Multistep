@@ -1,11 +1,11 @@
 //Components
 import { GrFormNext, GrFormPrevious } from 'react-icons/gr'
 import UserForm from './components/UserForm';
-import ReviewForm from './components/ReviewForm';
+import ReviewForm from './components/ReviewForm'
 import Thanks from './components/Thanks';
 
 // Hooks
-import { useForm } from "./hooks/useForm";
+import UseForm from './hooks/useForm';
 
 import './App.css'
 
