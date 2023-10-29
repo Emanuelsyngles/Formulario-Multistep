@@ -5,15 +5,14 @@ import ReviewForm from './components/ReviewForm'
 import Thanks from './components/Thanks'
 
 // Hooks
-import UserForm from './components/UseForm';
-
-const {} = UserForm(formComponents)
+import { UserForm } from './hooks/useForm'
 
 import './App.css'
 
 function App() {
-
   const formComponents = [<UserForm />, <ReviewForm />, <Thanks />]
+
+  const { currentStep, currentComponent } = UseForm(formComponents);
 
   return (
     <div className="App">
@@ -24,7 +23,7 @@ function App() {
       <div className="form-container">
         <p>etapas</p>
         <form>
-          <div className="inputs-container"></div>
+          <div className="inputs-container">{currentComponent}</div>
           <div className="action">
             <button type="button">
               <GrFormPrevious />
