@@ -1,9 +1,15 @@
 //Components
 import { GrFormNext, GrFormPrevious } from 'react-icons/gr'
+import UserForm from './components/UserForm'
+import ReviewForm from './components/ReviewForm'
+import Thanks from './components/Thanks'
 
 import './App.css'
 
-const App = () => {
+function App() {
+
+  const formComponents = [<UserForm />, <ReviewForm />, <Thanks />]
+
   return (
     <div className="App">
       <div className="header">
