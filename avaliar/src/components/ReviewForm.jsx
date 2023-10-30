@@ -1,3 +1,5 @@
+import "./ReviewForm.css"
+
 import {
   BsFillEmojiHeartEyesFill,
   BsFillEmojiSmileFill,
@@ -8,7 +10,7 @@ import {
 const ReviewForm = () => {
   return (
     <div className="review-form">
-      <div className="form-control score-container">
+      <div className="form-control score-container" required>
         <label className="radio-container">
           <input type="radio" value="unsatisfied" name="review" required />
           <BsFillEmojiFrownFill />
@@ -27,12 +29,13 @@ const ReviewForm = () => {
         <label className="radio-container">
           <input type="radio" value="very_satisfied" name="review" required />
           <BsFillEmojiHeartEyesFill />
-          <p>Insatisfeito</p>
+          <p>Muito Satisfeito</p>
         </label>
       </div>
       <div>
         <div className="form-control">
           <label htmlFor="comment">Comentário:</label>
+          <textarea name="comment" id="comment" placeholder="Conte como foi a sua experiência com o produto..." required></textarea>
         </div>
       </div>
     </div>
