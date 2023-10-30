@@ -26,7 +26,7 @@ function App() {
         <form onSubmit={(e) => changeStep(currentStep + 1, e)}>
           <div className="inputs-container">{currentComponent}</div>
           <div className="actions">
-           {!ifFirstStep && (
+            {!ifFirstStep && (
               <button type="button" onClick={() => changeStep(currentStep - 1)}>
                 <GrFormPrevious />
                 <span>Voltar</span>
