@@ -13,8 +13,10 @@ export function UseForm(steps) {
 
     return {
         currentStep,
-        currentComponent:[currentStep],
+        currentComponent: steps[currentStep],
         changeStep,
+        isLastStep: currentStep + 1 === steps.length ? true : false,
+        ifFirstStep: currentStep === 0 ? true : false,
     };
 }
 
