@@ -4,11 +4,11 @@ export function UseForm(steps) {
     const [currentStep, setCurrentStep] = useState(0)
 
     function changeStep(i, e) {
-        e.preventDefault();
+        if(e) e.preventDefault();
 
-        if(i < 0 || i >= steps.length)return
+        if(i < 0 || i >= steps.length) return;
 
-        setCurrentStep(i)
+        setCurrentStep(i);
     }
 
     return {
