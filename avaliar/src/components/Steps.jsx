@@ -2,8 +2,16 @@ import "./Steps.css"
 
 const Steps = (currentStep) => {
   return (
-    <div>
-      
+    <div className="steps">
+      <div className="step">
+        <p>identificação</p>
+      </div>
+      <div className="step">
+        <p>Avaliação</p>
+      </div>
+      <div className="step">
+        <p>Envio</p>
+      </div>
     </div>
   )
 }
