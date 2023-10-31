@@ -26,9 +26,13 @@ function App() {
     setData((prev) => {
       return {...prev, [key]: value};
     });
-  }
+  };
 
-  const formComponents = [<UserForm data={data}/>, <ReviewForm data={data}/>, <Thanks data={data}/>];
+  const formComponents = [
+  <UserForm data={data} updateFieldHandler={updateFieldHandler}/>, 
+  <ReviewForm data={data} updateFieldHandler={updateFieldHandler}/>, 
+  <Thanks data={data} />
+];
 
   const { currentStep, currentComponent, changeStep, isLastStep, ifFirstStep } = UseForm(formComponents);
 
