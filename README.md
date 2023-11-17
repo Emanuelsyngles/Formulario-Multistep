@@ -1,6 +1,7 @@
 ![Captura de tela 2023-11-17 151539](https://github.com/Emanuelsyngles/Account/assets/122393755/8a5f3f0b-0108-478d-a90c-2b44fe309c05)
 ![Captura de tela 2023-11-17 151557](https://github.com/Emanuelsyngles/Account/assets/122393755/059808f6-c996-45a5-9e22-62a625fcf9b0)
-![Captura de tela 2023-11-17 151608](https://github.com/Emanuelsyngles/Account/assets/122393755/d244d639-f780-4e5e-99fd-54f22169761a)
+![Captura de tela 2023-11-17 151608](https://github.com/Emanuelsyngles/Account/assets/122393755/801f61cf-962a-4560-9d4f-1aa3bb446247)
+
 
 
  ## Como funciona?
